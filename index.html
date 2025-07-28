@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Approve KJC Token</title>
+</head>
+<body>
+  <h2>Approve KJC Token to Referral Contract</h2>
+  <p id="status">❌ Wallet not connected</p>
+  <button onclick="connectWallet()">Connect Wallet</button>
+  <br/><br/>
+  <button onclick="approveKJC()">Approve KJC</button>
+
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.10.0/dist/web3.min.js"></script>
+  <script src="config.js"></script>
+  <script src="erc20Abi.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

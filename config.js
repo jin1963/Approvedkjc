@@ -1,0 +1,3 @@
+const kjcAddress = "0xd479Ae350Dc24168E8dB863c5413C35fb2044ecD"; // KJC Token
+const spenderAddress = "0xBaeF58FC0Eb20334b2fDEC4882e2AB972C1242DE"; // Referral Contract
+const approveAmount = "1000000000000000000000000"; // 1,000,000 KJC
